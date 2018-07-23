@@ -1,0 +1,60 @@
+/*
+
+    This is the main less file that describes the slyle for all app. 
+
+    Author: Sousa Gaspar
+    Date: 23.07.2018
+    all rights reserved
+
+*/
+/*
+
+    This session defines the colors used 
+    in the layout of the system
+
+*/
+/*
+
+    This session defines the gradients used 
+    in the layout of the system. This file makes use of colors
+
+*/
+.standardGreenGradient {
+  background-image: linear-gradient(-90deg, #00cdac 0%, #02aab0 100%);
+}
+.standardBlueGradient {
+  background-image: linear-gradient(-90deg, #2193b0 0%, #6dd5ed 100%);
+}
+/*
+
+    This session defines the assets for general purpose uses 
+    in the layout of the system
+
+*/
+.clearFix {
+  clear: both;
+}
+.screen {
+  margin: 0px;
+  padding: 0px;
+}
+.topHeader {
+  background-image: linear-gradient(-90deg, #00cdac 0%, #02aab0 100%);
+  padding: 2%;
+  color: #ffffff;
+}
+.topHeader .logo {
+  float: left;
+}
+.topHeader .listMenu {
+  float: right;
+}
+.topHeader .listMenu ul {
+  padding: none;
+  margin: none;
+}
+.topHeader .listMenu ul li {
+  list-style-type: none;
+  float: left;
+  padding-left: 1%;
+}
