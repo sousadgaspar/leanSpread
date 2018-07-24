@@ -34,6 +34,9 @@
 .clearFix {
   clear: both;
 }
+body {
+  background-color: #f6f6f6;
+}
 .screen {
   margin: 0px;
   padding: 0px;
@@ -57,4 +60,18 @@
   list-style-type: none;
   float: left;
   padding-left: 1%;
+}
+.container {
+  display: flex;
+  align-items: stretch;
+  margin-top: 2%;
+}
+.container .sideMenu {
+  order: 1;
+  max-width: 35%;
+}
+.container .content {
+  order: 2;
+  padding: 2%;
+  background-color: #d8d8d8;
 }

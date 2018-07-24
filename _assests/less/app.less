@@ -14,7 +14,11 @@
 @import 'gradients';
 @import 'assets';
 
+body {
 
+    background-color: @lightestGray;
+
+}
 
 .screen {
 
@@ -56,6 +60,33 @@
 
 
 }//End topHeader
+
+
+.container {
+
+    display: flex;
+    align-items: stretch;
+    margin-top:2%;
+
+
+    .sideMenu {
+
+        order: 1;
+        max-width: 35%;
+    }
+
+    .content {
+
+        order: 2;
+        padding: 2%;
+        background-color: @lightGray;
+
+
+    }
+
+}//End container
+
+
 
 
 
